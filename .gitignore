@@ -1,0 +1,35 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+backtest_env/
+venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Execution state and trade logs
+*.log
+state/
+
+# Data and backtest results
+data/*.csv
+!data/.gitkeep
+results/*.html
+results/*.csv
+results/*.txt
+results/*.json
+!results/.gitkeep
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
